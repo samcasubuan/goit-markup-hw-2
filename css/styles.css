@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Raleway:wght@400;500;800;900&family=Roboto:wght@400;500;700;900&display=swap");
+
+.link-logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  line-height: 1.5px;
+}
