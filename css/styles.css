@@ -17,206 +17,140 @@
   font-weight: 800;
 }
 
-.web-logo {
+.logo {
   color: var(--iriscolor);
 }
 
-.studio-logo {
+.studio {
   color: var(--navyblue);
 }
 
-.studio-logo2 {
-  color: white;
-}
-
-.navbar .pages {
-  color: var(--navybluecolor);
+.nav-menu .page {
+  color: var(--navyblue, #2e2f42);
   text-decoration: none;
   font-weight: 500;
   font-size: 15px;
   line-height: 1.15;
   letter-spacing: 0.05em;
+  font-family: Roboto;
 }
 
-.lists {
+.list {
   list-style-type: none;
 }
 
-.navbar .lists {
+.nav-menu .list {
   list-style-type: none;
 }
 
-.navbar .pages:hover,
-.navbar .pages:focus,
-.navbar .pages.currentoption,
-.contact-info .info:hover,
-.contact-info .info:focus {
+.nav-menu .page:hover,
+.nav-menu .page:focus,
+.nav-menu .page.current,
+.contacts-menu .item:hover:hover,
+.contacts-menu .item:focus {
   color: var(--oceancolor);
 }
 
-.contact-info .info {
+.contacts-menu .item {
   color: var(--navybluecolor);
   text-decoration: none;
 }
 
-.contact-address .address {
-  color: var(--navybluecolor);
+.contacts-menu .item {
+  color: var(--slate, #434455);
   font-weight: 500;
   font-size: 15px;
   line-height: 1.15;
   letter-spacing: 0.05em;
   text-decoration: none;
+  font-family: Roboto;
 }
 
-.bg-section-1 {
+.hero-bg-hero {
   background: var(--navyblue);
 }
 
-.h1-title {
+.hero-title {
   color: white;
-  font-size: 60px;
-  font-weight: 400;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
 }
 
-.btn {
+.button {
   cursor: pointer;
   border-color: transparent;
   letter-spacing: 0.05em;
   font-family: inherit;
 }
 
-.btn.click {
-  background-color: var(--oceancolor);
+.button.primary {
+  font-weight: 800;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  border-radius: 4px;
   color: var(--whitecolor);
-  font-weight: 800;
-  line-height: 1.5;
-  letter-spacing: 0.05em;
-}
-
-.btn1 {
-  cursor: pointer;
-  border-color: transparent;
-  letter-spacing: 0.05em;
-  font-family: inherit;
-}
-
-.btn1.all {
-  background: var(--ocean, #404bbf);
-  color: var(--white, #fff);
+  background: var(--iris, #4d5ae5);
   font-family: Roboto;
   font-size: 16px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 0.05em;
-  border-radius: 5px;
-  display: flex;
-  padding: 12px 24px;
-  align-items: flex-start;
 }
 
-.btn2 {
-  cursor: pointer;
-  border-color: transparent;
-  letter-spacing: 0.05em;
-  font-family: inherit;
-}
-
-.btn2.website {
-  background: var(--cloud, #f4f4fd);
+.button-filter {
   color: var(--iris, #4d5ae5);
-  border: 1px solid var(--cornflower, #e7e9fc);
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 0.05em;
-  border-radius: 5px;
-  display: flex;
-  padding: 12px 24px;
-  align-items: flex-start;
-}
-
-.btn3 {
-  cursor: pointer;
-  border-color: transparent;
-  letter-spacing: 0.05em;
-  font-family: inherit;
-}
-
-.btn3.app {
-  background: var(--cloud, #f4f4fd);
-  color: var(--iris, #4d5ae5);
-  border: 1px solid var(--cornflower, #e7e9fc);
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 0.05em;
-  border-radius: 5px;
-  display: flex;
-  padding: 12px 24px;
-  align-items: flex-start;
-}
-
-.btn4 {
-  cursor: pointer;
-  border-color: transparent;
-  letter-spacing: 0.05em;
-  font-family: inherit;
-}
-
-.btn4.design {
-  background: var(--cloud, #f4f4fd);
-  color: var(--iris, #4d5ae5);
-  border: 1px solid var(--cornflower, #e7e9fc);
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 0.05em;
-  border-radius: 5px;
-  display: flex;
-  padding: 12px 24px;
-  align-items: flex-start;
-}
-
-.btn5 {
-  cursor: pointer;
-  border-color: transparent;
-  letter-spacing: 0.05em;
-  font-family: inherit;
-}
-
-.btn5.marketing {
-  background: var(--cloud, #f4f4fd);
-  color: var(--iris, #4d5ae5);
-  border: 1px solid var(--cornflower, #e7e9fc);
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 0.05em;
-  border-radius: 5px;
-  display: flex;
-  padding: 12px 24px;
-  align-items: flex-start;
-}
-
-.desclist.titlelist {
-  font-weight: 800;
-  font-size: 40px;
-  line-height: 1.5;
-  color: #434455;
-}
-
-.sectiontitle {
   text-align: center;
-  color: var(--navyblue);
-  font-size: 35px;
-  font-weight: 800;
-  line-height: 1.5;
+  border-radius: 4px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--cloud, #f4f4fd);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.list2 {
+  text-decoration: none;
+}
+
+.title {
+  color: var(--navyblue, #2e2f42);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  text-align: left;
+  padding-right: 50px;
+}
+
+.description {
+  color: var(--slate, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  text-align: left;
+  padding-right: 50px;
+}
+
+.section-title {
+  color: var(--navyblue, #2e2f42);
+  text-align: left;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.list {
+  text-decoration: none;
 }
 
 .team {
@@ -233,8 +167,30 @@
   letter-spacing: 0.05em;
 }
 
-.footerbg {
+.page-footer {
   background: var(--navyblue);
+}
+
+.footer-description {
+  color: var(--cloud, #f4f4fd);
+  font-family: Roboto;
+  font-size: 16px;
+}
+.link-logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 21px;
+}
+
+.logo {
+  color: var(--iris, #4d5ae5);
+}
+
+.studio-footer {
+  color: var(--cloud, #f4f4fd);
 }
 
 .word {
@@ -242,4 +198,13 @@
   width: 265px;
   height: 70px;
   top: 300px;
+}
+
+.project {
+  text-decoration: none;
+  color: var(--navyblue, #2e2f42);
+}
+
+.button-list2 {
+  list-style-type: none;
 }
