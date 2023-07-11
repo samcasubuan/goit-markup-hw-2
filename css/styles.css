@@ -59,11 +59,9 @@ body {
   color: var(--iriscolor);
 }
 
-/*Checked */
 .hero-bg-hero {
-  background: var(--navyblue, #2e2f42);
+  background: var(--navyblue);
 }
-
 
 /*Checked */
 .hero-title {
@@ -109,25 +107,11 @@ body {
 }
 
 /*Checked */
-.button.primary:hover,
-.button.primary:focus {
-  background-color: var(--ocean);
-}
-
-/*Checked */
 .button.filter {
   color: var(--iris);
   background: var(--cloud);
   font-weight: 500;
   line-height: 1.62;
-}
-
-/*Checked */
-.button.filter:hover,
-.button.filter:focus,
-.button.filter:current {
-  background-color: var(--oceancolor);
-  color: var(--cloud);
 }
 
 /*Checked */
