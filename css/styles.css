@@ -59,7 +59,8 @@ body {
   color: var(--iriscolor);
 }
 
-.hero-bg-hero {
+/*Checked */
+.bg-hero {
   background: var(--navyblue);
 }
 
