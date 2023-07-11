@@ -60,9 +60,10 @@ body {
 }
 
 /*Checked */
-.bg-hero {
+.hero .bg-hero {
   background: var(--navyblue);
 }
+
 
 /*Checked */
 .hero-title {
