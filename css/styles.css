@@ -61,7 +61,7 @@ body {
 
 /*Checked */
 .hero-bg-hero {
-  background: var(--navyblue);
+  background: var(--navyblue, #2e2f42);
 }
 
 
