@@ -9,202 +9,180 @@
   --cloud: #f4f4fd;
 }
 
-.link-logo {
+/*Checked */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--slate);
+}
+
+/*Checked */
+.logo-link {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
-  font-size: 30px;
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.17;
   font-weight: 800;
 }
 
+/*Checked */
 .logo {
   color: var(--iriscolor);
 }
 
+/*Checked */
 .studio {
   color: var(--navyblue);
 }
 
+/*Checked */
 .nav-menu .page {
   color: var(--navyblue, #2e2f42);
   text-decoration: none;
   font-weight: 500;
-  font-size: 15px;
   line-height: 1.15;
-  letter-spacing: 0.05em;
-  font-family: Roboto;
+  letter-spacing: 0.02em;
 }
 
+/*Checked */
 .list {
   list-style-type: none;
 }
 
-.nav-menu .list {
-  list-style-type: none;
-}
-
+/*Checked */
 .nav-menu .page:hover,
 .nav-menu .page:focus,
 .nav-menu .page.current,
 .contacts-menu .item:hover:hover,
 .contacts-menu .item:focus {
-  color: var(--oceancolor);
-}
-
-.contacts-menu .item {
-  color: var(--navybluecolor);
-  text-decoration: none;
-}
-
-.contacts-menu .item {
-  color: var(--slate, #434455);
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 1.15;
-  letter-spacing: 0.05em;
-  text-decoration: none;
-  font-family: Roboto;
+  color: var(--iriscolor);
 }
 
 .hero-bg-hero {
   background: var(--navyblue);
 }
 
+/*Checked */
 .hero-title {
   color: white;
-  line-height: 1.5;
-  text-align: left;
-  font-family: Roboto;
+  line-height: 1.07;
+  text-align: center;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
 }
 
+/*Checked */
+.team .name {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+
+/*Checked */
+.team .position {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/*Checked */
 .button {
   cursor: pointer;
   border-color: transparent;
   letter-spacing: 0.05em;
   font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
 }
 
+/*Checked */
 .button.primary {
-  font-weight: 800;
-  line-height: 1.5;
-  letter-spacing: 0.05em;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
   border-radius: 4px;
   color: var(--whitecolor);
   background: var(--iris, #4d5ae5);
-  font-family: Roboto;
-  font-size: 16px;
 }
 
-.button-filter {
-  color: var(--iris, #4d5ae5);
-  text-align: center;
-  border-radius: 4px;
-  border: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--cloud, #f4f4fd);
-  font-family: Roboto;
-  font-size: 16px;
+/*Checked */
+.button.primary:hover,
+.button.primary:focus {
+  background-color: var(--ocean);
+}
+
+/*Checked */
+.button.filter {
+  color: var(--iris);
+  background: var(--cloud);
   font-weight: 500;
+  line-height: 1.62;
 }
 
-.list2 {
+/*Checked */
+.button.filter:hover,
+.button.filter:focus,
+.button.filter:current {
+  background-color: var(--oceancolor);
+  color: var(--cloud);
+}
+
+/*Checked */
+.project .name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: 0.4em;
+  color: var(--navyblue);
+}
+
+/*Checked */
+.project .type {
+  color: var(--slatecolor);
+  font-weight: 400;
+  line-height: 1.87;
+}
+
+/*Checked */
+.project {
   text-decoration: none;
 }
 
-.title {
+/*Checked */
+.benefits .title {
   color: var(--navyblue, #2e2f42);
-  font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-  text-align: left;
-  padding-right: 50px;
 }
 
-.description {
+/*Checked */
+.benefits .description {
   color: var(--slate, #434455);
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  text-align: left;
-  padding-right: 50px;
+  line-height: 1.17;
 }
 
+/*Checked */
 .section-title {
   color: var(--navyblue, #2e2f42);
-  text-align: left;
-  font-family: Roboto;
+  text-align: center;
   font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
+  line-height: 1.17;
 }
 
-.list {
-  text-decoration: none;
-}
-
-.team {
-  color: var(--navyblue);
-  font-weight: 800;
-}
-
-.position {
-  color: var(--slatecolor);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.05em;
-}
-
-.page-footer {
+/*Checked */
+.page-footer.bg-footer {
   background: var(--navyblue);
 }
 
+/*Checked */
 .footer-description {
   color: var(--cloud, #f4f4fd);
-  font-family: Roboto;
-  font-size: 16px;
-}
-.link-logo {
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 21px;
 }
 
-.logo {
-  color: var(--iris, #4d5ae5);
-}
-
+/*Checked */
 .studio-footer {
   color: var(--cloud, #f4f4fd);
-}
-
-.word {
-  color: white;
-  width: 265px;
-  height: 70px;
-  top: 300px;
-}
-
-.project {
-  text-decoration: none;
-  color: var(--navyblue, #2e2f42);
-}
-
-.button-list2 {
-  list-style-type: none;
 }
