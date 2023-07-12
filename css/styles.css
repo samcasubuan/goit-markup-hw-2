@@ -36,6 +36,14 @@ body {
   color: var(--navyblue);
 }
 
+.contacts-menu .item {
+  text-decoration: none;
+  color: var(--slatecolor);
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 /*Checked */
 .nav-menu .page {
   color: var(--navyblue, #2e2f42);
@@ -54,11 +62,24 @@ body {
 .nav-menu .page:hover,
 .nav-menu .page:focus,
 .nav-menu .page.current,
-.contacts-menu .item:hover:hover,
+.contacts-menu .item:hover,
 .contacts-menu .item:focus {
   color: var(--iriscolor);
 }
 
+.button.filter.current:hover,
+.button.filter:focus,
+.button.filter.current {
+  background: var(--oceancolor);
+  color: var(--cloud);
+}
+
+/*Checked */
+.item {
+  text-decoration: none;
+}
+
+/*Checked */
 .hero-bg-hero {
   background: var(--navyblue);
 }
@@ -119,7 +140,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 2;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.04em;
   color: var(--navyblue);
 }
 
