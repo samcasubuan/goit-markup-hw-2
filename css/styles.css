@@ -36,6 +36,7 @@ body {
   color: var(--navyblue);
 }
 
+/*Checked */
 .contacts-menu .item {
   text-decoration: none;
   color: var(--slatecolor);
@@ -67,6 +68,7 @@ body {
   color: var(--iriscolor);
 }
 
+/*Checked */
 .button.filter:hover,
 .button.filter:focus,
 .button.filter.current {
@@ -127,6 +129,7 @@ body {
   background: var(--iris, #4d5ae5);
 }
 
+/*Checked */
 .button.primary:hover,
 .button.primary:focus {
   background-color: var(--oceancolor);
